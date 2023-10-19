@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+/* body and texts */
+body {
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin: 50px 0 10px 0; 
+     /* top, side, bottom, side 
+    up, left, down, right */
+}
+
+p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(64, 63, 65);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+a.back {
+    color: rgba(236, 217, 217, 0.877);
+    font-weight: 400;
+}
+
+#contact {
+    font-size: 30px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* first section - start vh */
+section.main {
+    height: 100vh;
+    background-color: #FAB981;
+    color: #000;
+}
+
+section {
+    /* background-color: #bdf5ff; */
+    background-color: #FEDEBA;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.presentation {
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+    height: 25vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: rgba(236, 217, 217, 0.877);
+    background-color: rgb(56, 55, 56);
+}
+
+/* projects section */
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+/* projects design*/
+
+.project-card {
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #000;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-img {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 150px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* effects on icons and stuff*/
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.icons svg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icons svg:hover {
+    transform: translateY(-5px);
+}
+
+.contact #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#contact svg {
+    width: 24px;
+    height: 24px; 
+    transition: transform 0.2s ease-in-out;
+    fill: rgb(64, 63, 65);
+}
+
+#contact:hover svg {
+    transform: translateX(5px);
+}
+
+/* cellphones
+@media only screen and (min-width: 970px) {
+    .main {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+    /* } */
+/* } */ 
+
+/* @media only sccreen and (min-width: 970px) {
+    .square {
+        width: 48%;
+        margin: 1%;
+        height: 600px;
+    }
+}
+
+@media only sccreen and (max-width: 1300px) {
+    .hero-image .cube {
+        display: none;
+    }
+    #html #css #javascript #react #python {
+        display: none;
+    }
+} */
